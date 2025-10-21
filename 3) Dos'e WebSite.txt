@@ -1,0 +1,78 @@
+# Создание нового Angular проекта
+ng new country-crud-app
+cd country-crud-app
+
+# Установка Angular Material
+npm install -g @angular/cli
+ng add @angular/material
+
+# Установка json-server
+npm install -D json-server
+
+---
+Консоль:
+
+# Запуск json-server
+npm run server
+
+# Запуск Angular
+npm start
+or
+ng serve
+===
+# Всё сразу
+npm run dev
+===
+---
+ng version            # версия Angular CLI
+node --version        # версия Node.js
+npm --version         # версия npm
+---
+ng build              # сборка проекта
+ng test               # запуск тестов
+ng lint               # проверка кода
+ng generate component my-component  # создание нового компонента
+---
+# Отдельно для Angular
+ng serve --open         # автоматически откроет браузер
+ng serve --port 4201    # запуск на другом порту
+ng serve --host 0.0.0.0 # доступ с других устройств в сети
+
+DOM:
+country-crud-app/
+├── db.json
+├── package.json
+├── angular.json
+├── tsconfig.json
+├── src/
+│   ├── index.html
+│   ├── styles.css
+│   ├── main.ts
+│   └── app/
+│       ├── app.component.ts
+│       ├── app.component.html
+│       ├── app.component.css
+│       ├── app.module.ts
+│       ├── app-routing.module.ts
+│       ├── models/
+│       │   └── country.model.ts
+│       ├── services/
+│       │   └── country.service.ts
+│       └── components/
+│           ├── country-list/
+│           │   ├── country-list.component.ts
+│           │   ├── country-list.component.html
+│           │   └── country-list.component.css
+│           ├── country-form/
+│           │   ├── country-form.component.ts
+│           │   ├── country-form.component.html
+│           │   └── country-form.component.css
+│           └── confirm-dialog/
+│               ├── confirm-dialog.component.ts
+│               ├── confirm-dialog.component.html
+│               └── confirm-dialog.component.css
+
+---
+
+Видео:
+https://drive.google.com/drive/folders/14wbjkNwnkmKI51_BQQvbg866fhJCYHmX?usp=sharing
