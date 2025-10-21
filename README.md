@@ -62,6 +62,16 @@ LocalHosting:
 
 ✅	DOM:
 
-✅	Видео:
+Инструкция:
+
+✅	Просто выложить папку Testing Country на рабочий стол
+
+✅	Папка с проектом весит (637 MB)
+
+✅	Проект слишком велик, ссылка на Google диск
+
+https://drive.google.com/file/d/1G9-6glVj5-PQk5PnmSio8LRHRSKW3VBo/view?usp=sharing
+
+✅	Видео для запуска сайта:
 
 https://drive.google.com/drive/folders/14wbjkNwnkmKI51_BQQvbg866fhJCYHmX?usp=sharing
